@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Spotlight } from "./Spotlight";
-import { Button } from "../ui/moving-border";
+import { Spotlight } from "./ui/Spotlight";
+import { Button } from "./ui/moving-border";
 function HeroSection() {
   return (
     <div className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:py-0">
@@ -24,7 +24,7 @@ function HeroSection() {
               borderRadius="1.75rem"
               className="bg-black text-white  dark:border-slate-800"
             >
-              Explore Courses 
+              Explore Courses
             </Button>
           </Link>
         </div>
